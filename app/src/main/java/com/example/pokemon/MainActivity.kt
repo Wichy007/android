@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
         commonLog.logCommon()
         lifecycleScope.launch {
             val list = pokemonApi.getPokemonList()
-            list
         }
 
 //        binding.PokeBall.setOnClickListener{
