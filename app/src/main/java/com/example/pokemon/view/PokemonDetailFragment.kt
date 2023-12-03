@@ -28,9 +28,7 @@ class PokemonDetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-//        val name  = intent.getStringExtra("Name")
-
-//        binding.nameTv.text = name
+        //TODO: get something
+        binding.nameTv.text = "Naravit"
     }
 }

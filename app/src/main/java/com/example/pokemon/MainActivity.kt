@@ -18,17 +18,17 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
-        binding.PokeBall.setOnClickListener{
-//            Log.e(MainActivity::class.java.simpleName, "on click")
-            val intent = Intent(this, PokemonDetailActivity::class.java)
-            intent.putExtra("Name", "Naravit")
-            startActivity(intent)
-        }
-
-        binding.BackPack.setOnClickListener{
-            val intent = Intent(this, PokemonCollectionActivity::class.java)
-            startActivity(intent)
-        }
+//        binding.PokeBall.setOnClickListener{
+////            Log.e(MainActivity::class.java.simpleName, "on click")
+//            val intent = Intent(this, PokemonDetailActivity::class.java)
+//            intent.putExtra("Name", "Naravit")
+//            startActivity(intent)
+//        }
+//
+//        binding.BackPack.setOnClickListener{
+//            val intent = Intent(this, PokemonCollectionActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 }
 
